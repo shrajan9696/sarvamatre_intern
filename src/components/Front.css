@@ -1,0 +1,84 @@
+
+
+.mango {
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+    /* border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; */
+    /* border-radius: 50% / 60% 60% 50% 50%; */
+    border-radius: 50% 50% 50% 50% / 45% 45% 55% 55%;
+    /* background-color: #FFA500; */
+    background: rgb(145,195,178);
+background: linear-gradient(90deg, rgba(145,195,178,1) 6%, rgba(6,116,58,1) 62%, rgba(49,143,162,1) 99%);
+    transform: rotate(-45deg);
+    z-index: -1;
+  }
+
+  .fig1{
+    width: 30px;
+    height: 30px;
+ 
+    /* border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; */
+    /* border-radius: 50% / 60% 60% 50% 50%; */
+    border-radius: 42% 39% 37% 57% / 50% 38% 64% 75% ;
+    /* background-color: #FFA500; */
+    background: rgb(145,195,178);
+background: linear-gradient(90deg, rgba(145,195,178,1) 6%, rgba(6,116,58,1) 62%, rgba(49,143,162,1) 99%);
+    
+  }
+
+  .fig2{
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(94.31% 73.16%,51.26% 79.97%,7.78% 76.79%,23.41% 36.10%,47.91% 0.04%,75.33% 33.93%);
+ 
+    /* border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; */
+    /* border-radius: 50% / 60% 60% 50% 50%; */
+    /* border-radius: 50% 50% 50% 50% / 45% 45% 55% 55%; */
+    border-radius: 42% 39% 37% 57% / 50% 38% 64% 75% ;
+    /* background-color: #FFA500; */
+    background: rgb(145,195,178);
+background: linear-gradient(90deg, rgba(145,195,178,1) 6%, rgba(6,116,58,1) 62%, rgba(49,143,162,1) 99%);
+    /* transform: rotate(-10deg); */
+  }
+
+  .inp{
+    border: 3px solid green;
+    width: 350px;
+    height: 56px;
+    border-radius: 41px;
+  }
+.butt{
+    border-radius: px 10px;
+    margin-left: -33px;
+    height: 56px;
+    border: 3px solid green;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 50px;
+}
+  
+.img1{
+    z-index: -1;
+    border-radius: 5% 0 0 59%;
+}
+
+
+  .header{
+    font-size: 35px;
+    /* color: rgb(2,0,36); */
+    /* color:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(50,167,127,1) 50%, rgba(0,212,255,1) 100%); */
+    font-weight: 700;
+    margin-bottom: 20px;
+    /* background: #2CA83C; */
+    background: rgb(13 148 136);
+    /* background: linear-gradient(to top, #2CA83C 0%, #2291BA 100%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+}
